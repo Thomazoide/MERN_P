@@ -3,4 +3,4 @@ const usuarioSchema = new mongoose.Schema({
     email: String,
     pass: String
 });
-module.exports = mongoose.model("usuario", usuarioSchema);
+module.exports = mongoose.model("Usuario", usuarioSchema);
